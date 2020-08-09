@@ -41,4 +41,4 @@ TOKEN=$(kubectl get secrets -o jsonpath="{.items[?(@.metadata.annotations['kuber
 
 ### Special thanks
 
-Inspired by [inlead/drone-kubectl](https://github.com/sinlead/drone-kubectl).
+Inspired by [sinlead/drone-kubectl](https://github.com/sinlead/drone-kubectl).
